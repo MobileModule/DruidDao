@@ -1,4 +1,4 @@
-package com.greendao.helper;
+package com.greendao.druid;
 
 import android.database.Cursor;
 import android.database.SQLException;

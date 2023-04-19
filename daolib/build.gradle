@@ -9,6 +9,7 @@ android {
     defaultConfig {
         minSdkVersion androidVersions.minSdkVersion
         targetSdkVersion androidVersions.targetSdkVersion
+        multiDexEnabled true
     }
 
     buildTypes {
