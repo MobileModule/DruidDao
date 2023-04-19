@@ -9,7 +9,6 @@ android {
     defaultConfig {
         minSdkVersion androidVersions.minSdkVersion
         targetSdkVersion androidVersions.targetSdkVersion
-        multiDexEnabled true
     }
 
     buildTypes {
@@ -42,8 +41,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.mark.timecore'
-                artifactId = 'mark-timecore'
+                groupId = 'com.greendao.druidlib'
+                artifactId = 'greendao.druidlib'
                 version = '1.0.1'
             }
         }
